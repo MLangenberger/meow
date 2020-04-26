@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+  <style>
+    body {
+      background-image: url('./SVG/BGI.svg');
+      background-size: 5%;
+    }
+  </style>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="./css/styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+      <title>meow</title>
+      <script>
+        var meow = new Audio();
+        meow.src = "./audio/meow.mp3";
+        function PlaySound() {meow.play();}
+      </script>
+    </head>
+    <body>
+      <main>
+        <header>
+          <audio id="meow"> </audio>
+          <a href="#" onclick="PlaySound()"> Meow </a>
+        </header>
+
+        <!-- cat 1 -->
+      <div class="container">
+          <div id="cat1">
+            <img class="image" src="./SVG/Cat1.svg" alt="cat 1">
+          </div>
+
+        <!-- cat 2 -->
+          <div id="cat2">
+            <img class="image" src="./SVG/Cat2.svg" alt="cat 2">
+
+          </div>
+
+        <!-- cat 3 -->
+          <div id="cat3">
+            <img class="image" src="./SVG/Cat3.svg" alt="cat 3">
+
+          </div>
+        </div>
+      </main>
+    </body>
+  </html>
